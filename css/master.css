@@ -1,20 +1,41 @@
 
-div{
-    padding: 10px;
-    color: #fff;
-    width: 100px;
-    text-align: center;
-  position: absolute;
-}
-  
-.one{
+p{
+
     background-color: red;
-    
+    color: white;
+}
+div{
+    background-color: #eee;
+    padding: 10px;
+    margin: 10px;
+    height: 60px;
+    width: 60px;
+}
+a{
+    color: yellow;
+    text-decoration: none;
+}
+a:hover{
+    color: green;
+
 }
 
-.two{
-    background-color: green;
+.ch:checked {
+    
+    display: none;
 }
-.three{
-    background-color: blue;
+
+a:visited{
+     color: red;
+}
+div:empty{
+    border: 10px solid red;
+}
+.in{
+    border: 2px solid black;
+ 
+}
+.in:focus{
+    border-color: yellow;
+ outline: none;
 }
